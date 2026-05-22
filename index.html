@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Website</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Malkeet Singh</a>
+
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div style="text-align: center;">
+    
+    <h1>Hello, I'm Malkeet Singh</h1>
+    <p>MIS Executive | Junior Data Analyst</p>
+
+    <!-- Buttons -->
+    <div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px; flex-wrap: wrap;">
+
+      <!-- Hire Me Button -->
+      <a href="mailto:malkeetsingh01791@gmail.com">
+        <button class="btn-custom">
+          📧 Hire Me
+        </button>
+      </a>
+
+      <!-- Download Resume Button -->
+      <a href="Resume.PDF" download>
+        <button class="btn-custom">
+          📄 Download Resume
+        </button>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" style="background-color: #f4f8ff; padding: 60px 0;">
+  
+  <div class="container">
+    
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-box" 
+         style="
+         background: linear-gradient(135deg, #ffffff, #e8f0ff);
+         padding: 35px;
+         border-radius: 20px;
+         box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+         max-width: 900px;
+         margin: auto;
+         border-left: 6px solid #4a6cf7;
+         ">
+
+      <p style="
+         font-size: 18px; 
+         line-height: 1.9; 
+         color: #2c2c2c;
+         font-weight: 500;
+         ">
+
+        I am a passionate and detail-oriented Data Analyst fresher 
+        with hands-on experience in Excel dashboard creation, 
+        SQL-based data management, and Python automation.
+
+        I have worked on projects involving ERP system development 
+        and KPI dashboards to analyze business performance, identify trends,
+        and generate meaningful insights for decision-making.
+
+        Skilled in data cleaning, data visualization, reporting, 
+        and handling structured datasets efficiently.
+
+      </p>
+
+    </div>
+
+  </div>
+</section>
+<!-- Skills -->
+<section id="skills" style="background: linear-gradient(135deg, #eef2ff, #dbeafe); padding: 70px 0;">
+
+  <div class="container">
+
+    <h2 class="section-title">Skills</h2>
+
+    <!-- Main Skills Box -->
+    <div 
+      style="
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 25px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      ">
+
+      <div class="row g-4">
+
+        <!-- Excel -->
+        <div class="col-md-3">
+          <div class="skill-card"
+               style="
+               background: linear-gradient(135deg, #f0fff4, #d1fae5);
+               padding: 25px;
+               border-radius: 18px;
+               text-align: center;
+               box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+               height: 100%;
+               border: 1px solid #b7f7d8;
+               ">
+
+            <i class="fa-solid fa-file-excel"
+               style="font-size: 45px; color: #217346;"></i>
+
+            <h4 style="margin-top: 15px;">Adv. Excel</h4>
+
+            <p style="color: #444; font-size: 15px; margin-top: 10px;">
+              Pivot Tables, XLOOKUP, Dashboards, Charts, Data Cleaning, Formulas
+            </p>
+
+          </div>
+        </div>
+
+        <!-- MySQL -->
+        <div class="col-md-3">
+          <div class="skill-card"
+               style="
+               background: linear-gradient(135deg, #eff6ff, #dbeafe);
+               padding: 25px;
+               border-radius: 18px;
+               text-align: center;
+               box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+               height: 100%;
+               border: 1px solid #bfdcff;
+               ">
+
+            <i class="fa-solid fa-database"
+               style="font-size: 45px; color: #00758f;"></i>
+
+            <h4 style="margin-top: 15px;">MySQL</h4>
+
+            <p style="color: #444; font-size: 15px; margin-top: 10px;">
+              Joins, Queries, CRUD Operations, Database Management, Views
+            </p>
+
+          </div>
+        </div>
+
+        <!-- Python -->
+        <div class="col-md-3">
+          <div class="skill-card"
+               style="
+               background: linear-gradient(135deg, #fff7ed, #ffedd5);
+               padding: 25px;
+               border-radius: 18px;
+               text-align: center;
+               box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+               height: 100%;
+               border: 1px solid #ffd7b5;
+               ">
+
+            <i class="fa-brands fa-python"
+               style="font-size: 45px; color: #3776ab;"></i>
+
+            <h4 style="margin-top: 15px;">Python</h4>
+
+            <p style="color: #444; font-size: 15px; margin-top: 10px;">
+              NumPy, Automation, Data Analysis, File Handling, ERP System
+            </p>
+
+          </div>
+        </div>
+
+        <!-- Power BI -->
+        <div class="col-md-3">
+          <div class="skill-card"
+               style="
+               background: linear-gradient(135deg, #fefce8, #fef3c7);
+               padding: 25px;
+               border-radius: 18px;
+               text-align: center;
+               box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+               height: 100%;
+               border: 1px solid #fde68a;
+               ">
+
+            <i class="fa-solid fa-chart-column"
+               style="font-size: 45px; color: #f2c811;"></i>
+
+            <h4 style="margin-top: 15px;">Power BI</h4>
+
+            <p style="color: #444; font-size: 15px; margin-top: 10px;">
+              KPI Dashboards, Data Visualization, DAX, Reports, Insights
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- Education -->
+<section id="education" style="background: #f4f8ff; padding: 70px 0;">
+
+  <div class="container">
+
+    <h2 class="section-title">Education</h2>
+
+    <div class="row g-4">
+
+      <!-- Box 1 -->
+      <div class="col-md-6">
+        <div 
+          style="
+          background: #ffffff;
+          padding: 30px;
+          border-radius: 18px;
+          box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+          height: 100%;
+          ">
+
+          <h4 style="font-weight: bold; color: #222;">
+            Bachelor of Commerce (B.Com)
+          </h4>
+
+          <p style="color: #555; margin-top: 10px;">
+           <p style="color: #555; margin-top: 10px;">
+         Completed Bachelor of Commerce (B.Com) with knowledge 
+         of business, accounting, and financial concepts.
+          </p>
+          </p>
+
+          <span style="font-weight: bold; color: #4a6cf7;">
+            2023 - Present
+          </span>
+
+        </div>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="col-md-6">
+        <div 
+          style="
+          background: #ffffff;
+          padding: 30px;
+          border-radius: 18px;
+          box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+          height: 100%;
+          ">
+
+          <h4 style="font-weight: bold; color: #222;">
+            Data Analyst Course - Zillionsoftech
+          </h4>
+
+          <p style="color: #555; margin-top: 10px;">
+            Learning Excel, SQL, Python, Power BI, Data Cleaning, and Dashboard Development.
+          </p>
+
+          <span style="font-weight: bold; color: #4a6cf7;">
+            2026
+          </span>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+  <!-- Projects -->
+<section id="projects" style="background: #f4f8ff; padding: 70px 0;">
+
+  <div class="container">
+
+    <h2 class="section-title">Projects</h2>
+
+    <!-- Project Main Box -->
+    <div 
+      style="
+      background: white;
+      padding: 35px;
+      border-radius: 20px;
+      box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+      ">
+
+      <div class="row g-4">
+
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="project-card"
+               style="
+               background: #ffffff;
+               border-radius: 15px;
+               overflow: hidden;
+               box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+               transition: 0.3s;
+               height: 100%;
+               ">
+
+            <img 
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop" 
+              alt=""
+              style="width: 100%; height: 220px; object-fit: cover;">
+
+            <div class="project-content" style="padding: 20px;">
+              <h4>Excel Sales Dashboard</h4>
+              <p>Analyzed 5000+ rows and created interactive dashboards.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="project-card"
+               style="
+               background: #ffffff;
+               border-radius: 15px;
+               overflow: hidden;
+               box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+               height: 100%;
+               ">
+
+            <img 
+              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" 
+              alt=""
+              style="width: 100%; height: 220px; object-fit: cover;">
+
+            <div class="project-content" style="padding: 20px;">
+              <h4>Python ERP System</h4>
+              <p>ERP system with SQL integration and CRUD operations.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="project-card"
+               style="
+               background: #ffffff;
+               border-radius: 15px;
+               overflow: hidden;
+               box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+               height: 100%;
+               ">
+
+            <img 
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop" 
+              alt=""
+              style="width: 100%; height: 220px; object-fit: cover;">
+
+            <div class="project-content" style="padding: 20px;">
+              <h4>KPI Dashboard</h4>
+              <p>Revenue and growth dashboard using Excel formulas.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="col-md-4">
+          <div class="project-card"
+               style="
+               background: #ffffff;
+               border-radius: 15px;
+               overflow: hidden;
+               box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+               height: 100%;
+               ">
+
+            <img 
+              src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1200&auto=format&fit=crop" 
+              alt=""
+              style="width: 100%; height: 220px; object-fit: cover;">
+
+            <div class="project-content" style="padding: 20px;">
+              <h4>Data Analysis Project</h4>
+              <p>Performed SQL-based analysis and generated business insights.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<form action="https://formsubmit.co/malkeetsingh01791@gmail.com" method="POST">
+
+  <!-- form fields -->
+
+</form>
+
+<!-- YAHAN PASTE KARNA HAI -->
+<div class="row g-4 mt-4">
+
+  <!-- Phone -->
+  <div class="col-md-4">
+    <div style="
+      background: linear-gradient(135deg, #eef2ff, #dbeafe);
+      padding: 25px;
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      height: 100%;
+    ">
+
+      <i class="fa-solid fa-phone"
+         style="font-size: 40px; color: #2563eb;"></i>
+
+      <h4 style="margin-top: 15px; font-weight: bold;">
+        Contact Number
+      </h4>
+
+      <p style="color: #444; margin-top: 10px;">
+        +91 9785808481
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Email -->
+  <div class="col-md-4">
+    <div style="
+      background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+      padding: 25px;
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      height: 100%;
+    ">
+
+      <i class="fa-solid fa-envelope"
+         style="font-size: 40px; color: #16a34a;"></i>
+
+      <h4 style="margin-top: 15px; font-weight: bold;">
+        Email Address
+      </h4>
+
+      <p style="color: #444; margin-top: 10px;">
+        malkeetsingh01791@gmail.com
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Address -->
+  <div class="col-md-4">
+    <div style="
+      background: linear-gradient(135deg, #fff7ed, #ffedd5);
+      padding: 25px;
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      height: 100%;
+    ">
+
+      <i class="fa-solid fa-location-dot"
+         style="font-size: 40px; color: #ea580c;"></i>
+
+      <h4 style="margin-top: 15px; font-weight: bold;">
+        Address
+      </h4>
+
+      <p style="color: #444; margin-top: 10px;">
+        Alwar, Rajasthan
+      </p>
+
+    </div>
+  </div>
+
+</div>
+
+  <!-- Contact -->
+<section id="contact" style="background: #eef4ff; padding: 60px 0;">
+
+  <div class="container">
+
+    <h2 class="section-title">Contact Me</h2>
+
+    <!-- Contact Box -->
+    <div class="contact-box" 
+         style="
+         max-width: 700px;
+         margin: auto;
+         background: #ffffff;
+         padding: 35px;
+         border-radius: 20px;
+         box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+         ">
+
+      <!-- Form -->
+      <form action="https://formsubmit.co/malkeetsingh01791@gmail.com" method="POST">
+
+        <!-- Name -->
+        <div class="mb-3">
+          <label 
+            style="
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 8px;
+            display: block;
+            ">
+            Your Name
+          </label>
+
+          <input 
+            type="text" 
+            name="name"
+            class="form-control" 
+            placeholder="Enter your name" 
+            required
+
+            style="
+            background: #f5f7ff;
+            border: 1px solid #cfd8ff;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: 500;
+            ">
+        </div>
+
+        <!-- Email -->
+        <div class="mb-3">
+          <label 
+            style="
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 8px;
+            display: block;
+            ">
+            Your Email
+          </label>
+
+          <input 
+            type="email" 
+            name="email"
+            class="form-control" 
+            placeholder="Enter your email" 
+            required
+
+            style="
+            background: #f5f7ff;
+            border: 1px solid #cfd8ff;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: 500;
+            ">
+        </div>
+
+        <!-- Message -->
+        <div class="mb-3">
+          <label 
+            style="
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 8px;
+            display: block;
+            ">
+            Message
+          </label>
+
+          <textarea 
+            name="message"
+            class="form-control" 
+            rows="5" 
+            placeholder="Write your message"
+            
+            style="
+            background: #f5f7ff;
+            border: 1px solid #cfd8ff;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: 500;
+            "></textarea>
+        </div>
+
+        <!-- Hidden Settings -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Button -->
+        <button 
+          type="submit" 
+          class="btn btn-primary"
+
+          style="
+          padding: 12px 25px;
+          border-radius: 10px;
+          font-weight: bold;
+          ">
+          
+          📩 Send Message
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+</div>
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Malkeet Singh | All Rights Reserved</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
