@@ -144,6 +144,7 @@ footer{background:#0d6efd;color:#fff;text-align:center;padding:18px;font-weight:
     <ul class="nav-links" id="navLinks">
       <li><a onclick="navGo('about')">About</a></li>
       <li><a onclick="navGo('skills')">Skills</a></li>
+      <li><a onclick="navGo('Ai-Tools')">Ai-Tools</a></li>
       <li><a onclick="navGo('education')">Education</a></li>
       <li><a onclick="navGo('projects')">Projects</a></li>
       <li><a onclick="navGo('contact')">Contact</a></li>
@@ -161,7 +162,7 @@ footer{background:#0d6efd;color:#fff;text-align:center;padding:18px;font-weight:
       <p>Aspiring Data Analyst</p>
       <div class="hero-btns">
         <a href="#contact" class="btn-gold">📧 Hire ME</a>
-        <a href=<a href="" download class="btn-gold">📄 Download Resume</a>
+        <a href="resume.pdf" download class="btn-gold">📄 Download Resume</a>
       </div>
     </div>
   </section>
@@ -169,7 +170,7 @@ footer{background:#0d6efd;color:#fff;text-align:center;padding:18px;font-weight:
   <!-- ABOUT -->
   <section id="about" style="background:#f4f8ff">
     <div class="container">
-      <h2 class="section-title">About Me</h2>
+      <h2 class="section-title">👤 About Me</h2>
       <div class="about-box">
         <p>I am a passionate and detail-oriented Data Analyst fresher with hands-on experience in Excel dashboard creation, SQL-based data management, and Python automation.<br><br>
         I have worked on projects involving ERP system development and KPI dashboards to analyze business performance, identify trends, and generate meaningful insights for decision-making.<br><br>
@@ -180,7 +181,7 @@ footer{background:#0d6efd;color:#fff;text-align:center;padding:18px;font-weight:
 <!-- SKILLS -->
 <section id="skills" style="background:linear-gradient(135deg,#eef2ff,#dbeafe)">
   <div class="container">
-    <h2 class="section-title">Skills</h2>
+    <h2 class="section-title"> 💻 Skills</h2>
     <div class="skills-wrapper">
       <div class="skills-grid">
 
@@ -237,11 +238,98 @@ footer{background:#0d6efd;color:#fff;text-align:center;padding:18px;font-weight:
   </div>
 </section>
 
+<!-- AI TOOLS SECTION -->
+
+<section id="Ai-Tools" style="background:linear-gradient(135deg,#fdfdfd,#f1efef); padding:50px 0;">
+<div class="container">
+
+<h2 class="section-title">🤖 Ai-Tools</h2>
+
+<div class="skills-wrapper">
+<div class="skills-grid" style="grid-template-columns:repeat(3,1fr); gap:18px;">
+
+
+<!-- ChatGPT -->
+<div class="skill-card" style="padding:18px; min-height:180px; background:linear-gradient(135deg,#f0fdf4,#dcfce7); border:1px solid #bbf7d0;">
+<i class="fa-solid fa-robot" style="font-size:32px;color:#10a37f;"></i>
+
+<h4>ChatGPT</h4>
+
+<p>
+AI assistant for Python, SQL queries, data analysis, statistics, reports and automation.
+</p>
+
+</div>
+
+
+
+<!-- Power BI AI -->
+<div class="skill-card" style="padding:18px; min-height:180px; background:linear-gradient(135deg,#eff6ff,#dbeafe); border:1px solid #bfdbfe;">
+<i class="fa-solid fa-chart-column" style="font-size:32px;color:#f2c811;"></i>
+
+<h4>Power BI AI</h4>
+
+<p>
+AI-powered dashboards, data visualization, DAX analysis, business insights and reporting.
+</p>
+
+</div>
+
+
+
+<!-- GitHub Copilot -->
+<div class="skill-card" style="padding:18px; min-height:180px; background:linear-gradient(135deg,#fff7ed,#fed7aa); border:1px solid #fdba74;">
+<i class="fa-brands fa-github" style="font-size:32px;color:#24292e;"></i>
+
+<h4>GitHub Copilot</h4>
+
+<p>
+AI coding assistant for Python coding, SQL development, debugging and faster programming.
+</p>
+
+</div>
+
+
+
+<!-- Microsoft Copilot -->
+<div class="skill-card" style="padding:18px; min-height:180px; background:linear-gradient(135deg,#f5f3ff,#ddd6fe); border:1px solid #c4b5fd;">
+<i class="fa-solid fa-microsoft" style="font-size:32px;color:#0078d4;"></i>
+
+<h4>Microsoft Copilot</h4>
+
+<p>
+AI assistant for Excel, PowerPoint, Office work, productivity and business analysis.
+</p>
+
+</div>
+
+
+
+<!-- Julius AI -->
+<div class="skill-card" style="padding:18px; min-height:180px; background:linear-gradient(135deg,#ecfeff,#cffafe); border:1px solid #67e8f9;">
+<i class="fa-solid fa-chart-line" style="font-size:32px;color:#06b6d4;"></i>
+
+<h4>Julius AI</h4>
+
+<p>
+AI data analyst for CSV/Excel analysis, charts, visualization and business insights.
+</p>
+
+</div>
+
+
+</div>
+</div>
+
+</div>
+</section>
+
+
 
   <!-- EDUCATION -->
   <section id="education" style="background:#f4f8ff">
     <div class="container">
-      <h2 class="section-title">Education</h2>
+      <h2 class="section-title">🎓Education</h2>
       <div class="edu-grid">
         <div class="edu-card">
           <h4>Bachelor of Commerce (B.Com)</h4>
@@ -258,9 +346,9 @@ footer{background:#0d6efd;color:#fff;text-align:center;padding:18px;font-weight:
   </section>
 
   <!-- PROJECTS -->
-  <section id="projects" style="background:#eeeded">
+  <section id="projects" style="background:#fcfcfc">
     <div class="container">
-      <h2 class="section-title">Projects</h2>
+      <h2 class="section-title">💼 Projects</h2>
       <div class="projects-grid">
         <div class="project-card" onclick="showProject(1)">
           <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop" alt="Excel Sales Dashboard" loading="lazy"/>
@@ -297,6 +385,7 @@ footer{background:#0d6efd;color:#fff;text-align:center;padding:18px;font-weight:
             <span class="project-badge">Python Analysis</span>
             <div class="project-arrow">View Details →</div>
           </div>
+          
         </div>
         <div class="project-card" onclick="showProject(5)">
           <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop" alt="Work Tracker Dashboard" loading="lazy"/>
@@ -323,7 +412,7 @@ footer{background:#0d6efd;color:#fff;text-align:center;padding:18px;font-weight:
   <!-- CONTACT -->
   <section id="contact" style="background:#eef4ff">
     <div class="container">
-      <h2 class="section-title">Contact Me</h2>
+      <h2 class="section-title">📧 Contact Me</h2>
       <div class="contact-info-grid">
         <div class="contact-info-card" style="background:linear-gradient(135deg,#eef2ff,#dbeafe)">
           <i class="fa-solid fa-phone" style="color:#2563eb"></i>
@@ -366,6 +455,40 @@ footer{background:#0d6efd;color:#fff;text-align:center;padding:18px;font-weight:
       <h1 class="proj-title">Excel Sales Dashboard</h1>
       <span class="proj-badge-big">Data Analysis</span>
       <div class="detail-section"><h3>📋 Project Overview</h3><p>Built a comprehensive sales analytics dashboard in Microsoft Excel by analyzing over 5,000 rows of sales data. The project involved deep data cleaning, transformation, and visualization to extract actionable business insights.</p></div>
+       <!-- GitHub Link + QR Section -->
+<div class="detail-section">
+
+  <h3>🔗 Project Link</h3>
+
+  <div style="display:flex; justify-content:space-between; align-items:center; gap:30px; flex-wrap:wrap;">
+
+    <!-- LEFT SIDE -->
+    <div>
+      <p style="margin:0; font-size:18px; font-weight:600;">
+        View Full Project on GitHub
+      </p>
+
+      <a href="https://github.com/Malkeetsingh07/Advanced-Excel-Sales-Dashboard.git"
+         style="display:inline-block; margin-top:8px; font-size:14px; color:#666; text-decoration:underline;">
+        Click here to open repository
+      </a>
+    </div>
+
+    <!-- RIGHT SIDE QR -->
+    <div style="text-align:center; padding:12px; border:1px dashed #ccc; border-radius:12px;">
+
+      <img src="retail_sales_github_qr.png"
+           alt="GitHub QR Code"
+           style="width:180px; height:180px; border-radius:8px;">
+
+      <p style="margin-top:10px; font-size:18px; font-weight:bold;">
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
       <div class="detail-section"><h3>🛠 Tools & Technologies</h3><ul class="tools-list"><li>Microsoft Excel</li><li>Pivot Tables</li><li>XLOOKUP</li><li>Conditional Formatting</li><li>Charts & Graphs</li></ul></div>
       <div class="detail-section"><h3>✨ Key Features</h3><ul class="features-list"><li>Interactive pivot tables for dynamic data slicing</li><li>Automated monthly and quarterly sales summaries</li><li>Regional performance breakdown with color-coded charts</li><li>Year-over-year comparison with trend lines</li><li>Top 10 products and customer ranking tables</li></ul></div>
       <div class="detail-section"><h3>🎯 Outcome & Impact</h3><div class="outcome-box">Reduced reporting time by 60% and provided clear insights into high-performing regions and products, enabling data-driven sales strategy decisions.</div></div>
@@ -445,13 +568,18 @@ footer{background:#0d6efd;color:#fff;text-align:center;padding:18px;font-weight:
         </ul>
       </div>
 
-      <div class="detail-section"><h3>🎯 Outcome & Impact</h3><div class="outcome-box">     <li>Improved understanding of customer purchasing patterns.</li>
-          <li>Generated actionable business insights through data analysis.</li>
-          <li>Enabled efficient tracking of sales performance and revenue growth.</li>
-          <li>Optimized database querying and reporting processes.</li>
-          <li>Provided a scalable foundation for future business intelligence dashboards.</li>
-        </ul>
-      </div>
+      <div class="detail-section">
+  <h3>🎯 Outcome & Impact</h3>
+  <div class="outcome-box">
+    <ul>
+      <li>Improved understanding of customer purchasing patterns.</li>
+      <li>Generated actionable business insights through data analysis.</li>
+      <li>Enabled efficient tracking of sales performance and revenue growth.</li>
+      <li>Optimized database querying and reporting processes.</li>
+      <li>Provided a scalable foundation for future business intelligence dashboards.</li>
+    </ul>
+  </div>
+</div>
       <div class="proj-nav"><button class="proj-nav-btn" onclick="showProject(1)">← Excel Sales Dashboard</button><button class="proj-nav-btn" onclick="showProject(3)">KPI Dashboard →</button></div>
     </div>
   </div>
