@@ -13,7 +13,7 @@ A modern and responsive portfolio website showcasing my skills, projects, certif
 
 ## 🛠️ Technologies Used
 - HTML5
-- CSS3
+- CSS
 - JavaScript
 - Font Awesome
 
