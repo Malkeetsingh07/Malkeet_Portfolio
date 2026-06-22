@@ -1,25 +1,29 @@
-# Malkeet_Portfolio
-My_portfolio
+# 🌐 Personal Portfolio Website
 
-# Hi, I'm Malkeet Singh 👋
+A modern and responsive portfolio website showcasing my skills, projects, certifications, and contact information.
 
-## About Me
-- B.Com Student
-- Learning Python, SQL, Power BI
-- Building Data Analytics skills
+## 🚀 Features
+- Responsive Design
+- About Me Section
+- Skills Showcase
+- Project Portfolio
+- Certifications
+- Contact Form
+- Social Media Links
 
-## Skills
-- Python
-- SQL
-- Excel
-- Power BI
-- HTML/CSS
-- GitHub
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome
 
-## Current Goal
-To become a professional Data Analyst 
+## 📷 Preview
+Add your website screenshot here.
 
-## Projects
-- Portfolio Website
-- Employee CRUD System
-- Work Tracker Website
+## 🔗 Live Demo
+[View Website](YOUR_LIVE_WEBSITE_LINK)
+
+## 👨‍💻 Author
+**Malkeet Singh**
+
+B.Com Student | Data Analytics Enthusiast | Aspiring Business Analyst
