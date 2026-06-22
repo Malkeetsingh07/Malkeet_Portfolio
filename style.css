@@ -278,6 +278,8 @@ grid-template-columns:1fr;
   margin: 0 auto !important;          
 }
 
+
+
 /* Width ko 33.33% kiya taaki ek line me max 3 boxes hi banein */
 .ai-grid .skill-card {
   flex: 0 1 calc(33.33% - 25px) !important; 
