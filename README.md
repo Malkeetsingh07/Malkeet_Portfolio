@@ -21,9 +21,10 @@ A modern and responsive portfolio website showcasing my skills, projects, certif
 Add your website screenshot here.
 
 ## 🔗 Live Demo
-[View Website](YOUR_LIVE_WEBSITE_LINK)
+[View Website](https://malkeetsingh07.github.io/Malkeet_Portfolio/)
 
 ## 👨‍💻 Author
 **Malkeet Singh**
 
 B.Com Student | Data Analytics Enthusiast | Aspiring Business Analyst
+
