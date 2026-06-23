@@ -43,6 +43,6 @@ draw.text(
 )
 
 # Save QR
-canvas.save("retail_sales_github_qr.png")
+canvas.save("excel_dashboard_qr.png")
 
 print("✅ Professional QR Code Generated Successfully!")
